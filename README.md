@@ -1,1 +1,3 @@
 # Fake-News-Detection-in-YouTube-Videos
+This project aims in classifying the information given in the YouTube Video as Real, Fake or Debunking. 
+In this project, the subtitles of the YouTube Video is extracted using an API, and the data of the subtitles is hence created. Basic NLP techniques like data cleaning, removal of punctuations and stopwords and the data is then transformed using TFIDF Vectorizer. This transformed data was used to train the following Machine Learning Models: Logistic Regression, Naive Bayes Classifier, Passive Aggresive Classifier and Random Forest Classifier. Maximum accuracy of 98% was attained by Passive Aggressive Classifier
